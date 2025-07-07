@@ -1,5 +1,4 @@
-# the-ancient-depths
-AI Project on Extinction
+# The Ancient Depths
 **The Ancient Depths**
 In light of the increasingly concerning news about the imminent fate of the oceans, I find myself contemplating the issue of extinction with greater frequency. In collaboration with artificial intelligence, I dive into ancient waters and capture the inhabitants whose existence was interrupted and whose evidence is preserved in fossils. The aim of this work is to illustrate the fragility of life and to prompt reflection on the current, rapid extinction in which humanity plays a pivotal role. 
 ## Contents
