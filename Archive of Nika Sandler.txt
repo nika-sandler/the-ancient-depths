@@ -48,7 +48,46 @@ This document and related explanatory texts.
 /Metadata
 Descriptions, keywords, and contextual information.
 
+/Preservation
+Integrity information, recovery data,
+and preservation-related documentation.
+
+/Web Archives
+Archived representations of websites
+and associated online publications.
+
 File formats were chosen for durability and openness whenever possible.
+
+────────────────────────────────
+
+ARCHIVAL OBJECTS AND RELATIONSHIPS
+
+Materials in this archive may exist in several forms, including:
+
+– original or master files,
+– preservation copies,
+– access and publication copies,
+– compressed archival packages,
+– web captures and archived publications,
+– supporting documentation and metadata.
+
+These forms may represent different stages in the creation, 
+publication, and preservation of an artwork.
+
+Where applicable, archival documentation identifies relationships between objects, including:
+
+– original and derivative versions,
+– individual works and larger projects,
+– published works and their archival copies,
+– images, texts, and related documentation.
+
+The existence of multiple copies does not necessarily indicate multiple original works. 
+Copies may differ in format, resolution, metadata, or intended use.
+
+Preservation copies should not replace or silently overwrite original materials.
+
+Where transformations or migrations are necessary, 
+their nature should be documented whenever possible.
 
 ────────────────────────────────
 
@@ -80,6 +119,108 @@ of any particular platform, service, or technology.
 Last major revision of this document: July 2026.
 
 https://nika-sandler.github.io
+
+────────────────────────────────
+
+PRESERVATION AND INTEGRITY
+
+The archive follows a distributed preservation approach. 
+Its long-term accessibility does not depend on a single repository, 
+storage provider, or physical medium.
+
+Digital preservation measures include:
+
+– the use of open and widely documented file formats whenever possible;
+– the maintenance of multiple archival copies across different storage systems;
+– periodic integrity checks of files stored in distributed repositories;
+– the use of SHA-256 checksums to detect unintended changes to file contents;
+– the use of PAR2 recovery data for selected archival packages;
+– periodic checks of file accessibility, readability, and recoverability.
+
+Checksums provide a means of detecting changes to files. 
+Recovery data may help reconstruct damaged 
+or missing portions of selected archival packages.
+
+These mechanisms serve different purposes and complement one another.
+
+The presence of a checksum does not, by itself, guarantee that a file remains readable, 
+and the existence of a recovery package does not guarantee recovery in every situation.
+
+Preservation copies are maintained independently of the availability 
+of any single online platform whenever possible.
+
+The archive is subject to ongoing maintenance. 
+Preservation practices may evolve as storage technologies, 
+file formats, and available resources change.
+
+Any necessary migration, repair, or modification should preserve 
+the original materials whenever possible and be documented transparently.
+
+No digital preservation strategy can guarantee indefinite survival. 
+The purpose of these measures is to reduce the risk of loss 
+and increase the possibility of future access and recovery.
+
+────────────────────────────────
+
+WEB PRESERVATION
+
+The archive includes preserved representations of websites, online publications, 
+and other web-based materials associated with the artist's practice.
+
+These materials document not only individual artworks 
+but also their historical presentation, 
+publication context, and presence within the digital environment 
+in which they originally circulated.
+
+Web preservation materials may include:
+
+– archived versions of the artist's websites;
+– captures of project pages and online portfolios;
+– archived publications and exhibition-related materials;
+– preserved web pages associated with individual projects;
+– supporting texts, images, and publication metadata.
+
+Web captures are maintained through available web archiving systems 
+and independent archival copies.
+
+The preservation of web materials is intended to retain contextual information 
+that may not be present in the original artwork files alone.
+
+Archived web pages may not reproduce every element of their original appearance or functionality. 
+External services, embedded media, scripts, and linked resources may become unavailable over time.
+
+The preservation of a web capture should therefore be understood 
+as a record of a particular digital presentation, 
+rather than a guarantee of complete reconstruction of the original website.
+
+────────────────────────────────
+
+PRESERVATION MAINTENANCE AND RECORDS
+
+The archive is maintained through periodic checks 
+of its distributed copies and storage systems.
+
+Maintenance activities may include:
+
+– verifying file integrity against available SHA-256 checksums;
+– checking the accessibility of online archival copies;
+– downloading and testing selected files and archival packages;
+– verifying the integrity of compressed packages and associated PAR2 recovery data;
+– checking whether files remain readable with available software;
+– reviewing the condition and accessibility of physical storage media;
+– updating repository documentation and archival references.
+
+Preservation checks are intended to identify potential problems before 
+they result in permanent data loss.
+
+Where possible, significant maintenance activities, integrity checks, migrations, 
+and recovery operations are recorded separately from the main README.
+
+The maintenance record complements the archival metadata 
+and provides a history of preservation activities.
+
+The frequency and scope of maintenance may vary depending on the storage system, 
+available resources, and the condition of individual archival copies.
 
 ────────────────────────────────
 
@@ -421,6 +562,38 @@ Links verified as active: 2026.
 
 ────────────────────────────────
 
+ARCHIVAL CONTINUITY
+
+This archive is designed to remain accessible independently of the continued participation of its original creator.
+
+Its preservation strategy does not rely on a single individual, institution, repository, or online service.
+
+If one repository, platform, or storage system becomes unavailable, other documented copies and archival references 
+may provide alternative access routes.
+
+Future custodians, researchers, or institutions encountering this archive are encouraged to:
+
+– preserve existing archival copies before undertaking modifications;
+– verify available checksums whenever possible;
+– retain associated metadata, documentation, and recovery files;
+– maintain relationships between original works and their derivative versions;
+– document any migration, repair, or changes to archival packages;
+– preserve the original file structures and filenames whenever possible;
+– update archival references when new preservation locations become available.
+
+If a particular storage system becomes inaccessible, surviving copies may be used to restore the affected materials, 
+provided that their integrity can be established.
+
+The archival portal and this README provide starting points 
+for understanding the archive's structure and locating its distributed components.
+
+No individual repository should be assumed to contain the complete archive.
+
+The long-term continuity of this archive depends on the preservation of its materials, 
+documentation, relationships, and contextual information.
+
+────────────────────────────────
+
 LICENSE AND USE
 
 Unless otherwise specified, the contents of this archive may be:
@@ -441,6 +614,21 @@ Attribution is appreciated:
 No warranty is provided.
 The author is not responsible for reinterpretation,
 modification, or reuse.
+
+────────────────────────────────
+
+LICENSE SCOPE
+
+Individual works, files, and archival deposits may be subject to different licensing terms.
+
+Where a specific license or rights statement accompanies an item, 
+that item's stated terms take precedence over the general permissions described in this document.
+
+The presence of a work in an archival repository does not, by itself, imply 
+that all associated materials are released under the same license.
+
+Users and future custodians should retain item-level license information 
+and attribution whenever materials are copied, migrated, or redistributed.
 
 ────────────────────────────────
 
@@ -478,7 +666,10 @@ This archive is intended for:
 – research and analysis
 – cultural preservation
 
-All files may be used in accordance with the license above.
+All files and associated materials may be used in accordance 
+with their applicable item-level licenses 
+or rights statements and the general permissions 
+described in this document, where applicable.
 
 ────────────────────────────────
 
